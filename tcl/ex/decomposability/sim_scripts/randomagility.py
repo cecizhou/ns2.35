@@ -36,8 +36,8 @@ for i in range(0, 1000):
   onpercent = random.uniform(5, 100)
   off_avg[i] = ( 100.0 - onpercent ) / onpercent;
  
-  # Sample multiplexing from 1 to 10
-  muxing = random.randint(1, 10)
+  # Sample multiplexing from 1 to 2
+  muxing = random.randint(1, 2)
  
   # Sample RTT from 50 through 300 ms
   rtt = random.uniform(50, 300)
